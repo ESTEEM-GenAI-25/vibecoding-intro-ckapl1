@@ -1,0 +1,26 @@
+import React from "react";
+import { Button } from "@/components/ui/button";
+import { FileText, Mail, Linkedin } from "lucide-react";
+
+export default function PersonalSite() {
+  return (
+    <div className="min-h-screen bg-white text-gray-900 flex flex-col items-center justify-center p-8">
+      <div className="text-center space-y-6">
+        <h1 className="text-5xl font-bold">Chris Kaplan</h1>
+        <p className="text-lg text-gray-600">Master’s Student at the University of Notre Dame</p>
+
+        <div className="flex flex-wrap justify-center gap-4 mt-6">
+          <a href="#resume"><Button className="rounded-2xl"><FileText className="mr-2 h-4 w-4" /> Download Resume</Button></a>
+          <a href="mailto:kaplan.chris.r@gmail.com"><Button variant="outline" className="rounded-2xl"><Mail className="mr-2 h-4 w-4" /> Email</Button></a>
+          <a href="https://www.linkedin.com/in/christopherrkaplan" target="_blank" rel="noreferrer"><Button variant="ghost" className="rounded-2xl"><Linkedin className="mr-2 h-4 w-4" /> LinkedIn</Button></a>
+        </div>
+
+        <div className="mt-8">
+          <a id="resume" href="#" className="inline-flex items-center gap-2 text-emerald-700 hover:underline">
+            <FileText className="h-4 w-4" /> resume.pdf
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
