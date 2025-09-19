@@ -1,73 +1,48 @@
-# 📑 Product Requirements Document (PRD)
+# Personal Website – PRD
 
 ## 1. Project Overview
 - **Summary:**  
-  _One-sentence description of what this product is and why it exists._
+  A personal website showcasing Chris Kaplan’s background, resume, and professional links in a clean, simple design.  
 
 - **Context/Background:**  
-  _Why this project is being created, relevant history, or inspiration._
+  This site serves as an online portfolio for networking, applications, and personal branding.  
 
 ## 2. Goals and Objectives
 - **Primary Goal(s):**  
-  _Main outcome the product should achieve._
+  - Present Chris Kaplan’s resume and professional background.  
+  - Provide a clear and accessible hub for contact information.  
 
 - **Secondary Goal(s):**  
-  _Additional but less critical objectives._
+  - Include a short bio for quick context.  
+  - Create a minimal design that can be expanded later.  
 
 ## 3. Target Audience
 - **Who are the users?**  
-  _e.g., students, researchers, customers, collaborators, general public._
+  - Recruiters, professors, peers, and potential collaborators.  
 
 - **User Needs:**  
-  _What they expect to accomplish using this product._
+  - Quickly understand Chris Kaplan’s education, background, and skills.  
+  - Access resume and professional contact information.  
 
 ## 4. Key Features / Requirements
 - **Must-Have Features:**  
-  - Feature 1  
-  - Feature 2  
-  - Feature 3  
+  - Name and title prominently displayed.  
+  - Resume (embedded or downloadable).  
+  - Contact information (email, LinkedIn).  
+  - Short bio.  
 
 - **Nice-to-Have Features (Optional):**  
-  - Feature A  
-  - Feature B  
+  - Section for projects.  
+  - Clean, responsive layout for mobile.  
+  - Links to social media or blog (if added later).  
 
-## 5. Design & User Experience
-- **Visual Style / Vibe:**  
-  _Minimalist, playful, professional, bold, etc._
+## 5. Content
+- **Bio (2 sentences):**  
+  Chris Kaplan is a master’s student in the ESTEEM program at the University of Notre Dame with a background in finance and entrepreneurship. He is passionate about startups, innovation, and helping others learn personal finance and investing.  
 
-- **Branding / Colors / Fonts:**  
-  _Any specific guidelines or references._
+- **Contact Info:**  
+  - Email: ckaplan@nd.edu  
+  - LinkedIn: [Christopher Kaplan](https://www.linkedin.com/in/christopherkaplanr/)  
 
-- **Accessibility Considerations:**  
-  _e.g., color contrast, alt text for images, screen reader compatibility._
-
-## 6. Content Requirements
-- **Pages / Sections:**  
-  - Homepage  
-  - About / Bio  
-  - Projects / Portfolio  
-  - Contact  
-  - _(other sections as needed)_  
-
-- **Specific Content to Include:**  
-  _Copy, images, links, downloads, etc._
-
-## 7. Technical Constraints
-- **Technology Stack:**  
-  _Plain HTML/CSS/JS, React, etc._
-
-- **Hosting / Deployment:**  
-  _GitHub Pages, custom server, etc._
-
-- **Performance / Security Requirements:**  
-  _e.g., mobile responsive, SSL, fast loading times._
-
-## 8. Out of Scope
-- _List what this product will **not** include, to prevent scope creep._
-
-## 9. Acceptance Criteria
-- _How you’ll know the product is complete — measurable standards._  
-  - Loads in under X seconds  
-  - Mobile responsive on iOS/Android  
-  - All main features work as described  
-  - Accessibility checks passed  
+- **Resume:**  
+  - To be displayed or downloadable (PDF format).  
