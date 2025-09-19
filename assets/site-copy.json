@@ -9,7 +9,7 @@
   "navigation": {
     "home": "Home",
     "about": "About",
-    "projects": "Projects"
+    "games": "Games"
   },
   "home": {
     "greeting": "Hello, I'm",
