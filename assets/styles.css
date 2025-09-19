@@ -385,6 +385,10 @@ main {
   background: var(--gradient-secondary);
 }
 
+.sidebar-card:nth-child(3)::before {
+  background: var(--gradient-accent);
+}
+
 .sidebar-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px var(--shadow-lg);

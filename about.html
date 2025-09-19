@@ -60,6 +60,11 @@
                                 <h3 id="backgroundTitle">Background</h3>
                                 <ul id="backgroundList"></ul>
                             </div>
+                            
+                            <div class="sidebar-card">
+                                <h3 id="funFactsTitle">Fun Facts</h3>
+                                <ul id="funFactsList"></ul>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -197,6 +202,15 @@
                     const li = document.createElement('li');
                     li.textContent = item;
                     backgroundList.appendChild(li);
+                });
+                
+                // Update fun facts section
+                document.getElementById('funFactsTitle').textContent = this.siteData.about.fun_facts.title;
+                const funFactsList = document.getElementById('funFactsList');
+                this.siteData.about.fun_facts.items.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item;
+                    funFactsList.appendChild(li);
                 });
                 
                 // Update contact section
